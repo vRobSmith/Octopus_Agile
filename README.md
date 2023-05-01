@@ -48,23 +48,29 @@ There are a few options that can be customized in the code:
 
 To change any of these options, simply modify the corresponding value in the code and save the file.
 
-## Contributing
+## Cron Setup
 
-If you would like to contribute to this project, please open an issue or submit a pull request.
+To automatically run the program on boot and at regular intervals, you can set up a cron job on your Raspberry Pi.
 
-## Authors
+1. Open the crontab editor by running the following command:
 
-* **Rob Smith** - *Initial work* - [vRobSmith](https://github.com/vRobSmith)
+```bash
+crontab -e
+```
 
-## License
+2. Add the following line to run the program on boot:
 
-This project is licensed under the [Creative Commons Attribution 4.0 International License][cc-by].
+```
+@reboot sleep 10; /usr/bin/python3 /path/to/agile-pricing-display/agile-pricing-display.py
+```
 
-[![CC BY 4.0][cc-by-image]][cc-by]
+Make sure to replace `/path/to/agile-pricing-display/` with the actual path to the directory where the `agile-pricing-display.py` file is located.
 
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+3. Add the following line to run the program every 30 minutes:
 
-## Contact
+```
+*/30 * * * * sleep 5; /usr/bin/python3 /path/to/agile-pricing-display/agile-pricing-display.py
+```
 
-You can find me on [Twitter](https://twitter.com/vRobSmith) and [GitHub](https://github.com
+The `sleep 5` command ensures that the correct pricing window is displayed by allowing a 5-second delay between each run of the program. This is necessary because the program fetches the next four pricing slots, including the ongoing slot, and displays them on the InkyPHAT. Without the delay, there is a possibility that the program will display the incorrect pricing window.
+

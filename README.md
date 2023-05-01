@@ -2,6 +2,12 @@
 
 This project displays the current and next three Octopus Agile pricing slots for electricity consumption on an InkyPHAT display, along with a smiley or frowning face to indicate whether the current pricing is below or above a red price threshold. The pricing data is fetched from the Octopus Energy API.
 
+To use this project, you will need a Raspberry Pi Zero and an InkyPHAT display. If you don't already have these, you can purchase them from the Pimoroni website:
+
+- [Raspberry Pi Zero Essentials Kit](https://shop.pimoroni.com/products/raspberry-pi-zero-essentials-kit?variant=40457189916755)
+- [InkyPHAT Display](https://shop.pimoroni.com/products/inky-phat?variant=12549254217811)
+
+
 ## What does it look like?
 
 <img src="https://raw.githubusercontent.com/vRobSmith/Octopus_Agile/da222dd360555ab64359334c7498e3cc61d41f2a/IMG_2507.JPG" alt="Image 1" width="400"><img src="https://raw.githubusercontent.com/vRobSmith/Octopus_Agile/da222dd360555ab64359334c7498e3cc61d41f2a/IMG_2508.JPG" alt="Image 2" width="400">

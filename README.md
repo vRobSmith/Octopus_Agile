@@ -1,6 +1,6 @@
-# Agile Pricing Display
+# Octopus Agile Pricing Display
 
-This project displays the current and next three Agile pricing slots for electricity consumption on an InkyPHAT display, along with a smiley or frowning face to indicate whether the current pricing is below or above a red price threshold. The pricing data is fetched from the Octopus Energy API.
+This project displays the current and next three Octopus Agile pricing slots for electricity consumption on an InkyPHAT display, along with a smiley or frowning face to indicate whether the current pricing is below or above a red price threshold. The pricing data is fetched from the Octopus Energy API.
 
 ## What does it look like?
 

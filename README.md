@@ -87,3 +87,6 @@ Make sure to replace `/path/to/agile-pricing-display/` with the actual path to t
 
 The `sleep 5` command ensures that the correct pricing window is displayed by allowing a 5-second delay between each run of the program. This is necessary because the program fetches the next four pricing slots, including the ongoing slot, and displays them on the InkyPHAT. Without the delay, there is a possibility that the program will display the incorrect pricing window.
 
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.

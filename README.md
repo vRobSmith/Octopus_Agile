@@ -29,7 +29,8 @@ To run this project, you will need:
 1. Clone this repository to your Raspberry Pi:
 
 ```bash
-git clone https://github.com/vRobSmith/agile-pricing-display.git
+
+git clone https://github.com/vRobSmith/Octopus_Agile.git
 ```
 
 2. Install the required Python libraries:

@@ -4,7 +4,7 @@ This project displays the current and next three Agile pricing slots for electri
 
 ## What does it look like?
 
-<img src="https://raw.githubusercontent.com/vRobSmith/Octopus_Agile/da222dd360555ab64359334c7498e3cc61d41f2a/IMG_2507.JPG" alt="Image 1" width="500"><img src="https://raw.githubusercontent.com/vRobSmith/Octopus_Agile/da222dd360555ab64359334c7498e3cc61d41f2a/IMG_2508.JPG" alt="Image 2" width="500">
+<img src="https://raw.githubusercontent.com/vRobSmith/Octopus_Agile/da222dd360555ab64359334c7498e3cc61d41f2a/IMG_2507.JPG" alt="Image 1" width="400"><img src="https://raw.githubusercontent.com/vRobSmith/Octopus_Agile/da222dd360555ab64359334c7498e3cc61d41f2a/IMG_2508.JPG" alt="Image 2" width="400">
 
 
 
